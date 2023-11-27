@@ -345,12 +345,8 @@ iframe {
 
 
     .nav-item {
-        margin: 16px 0;
-
-    }
-
-    .nav-item {
-        position: fixed;
+        padding-top: 50px;
+        gap: 3px;
         display: flex;
         justify-content: left;
         align-items: last baseline;
