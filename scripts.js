@@ -11,7 +11,7 @@ let formulario = document.querySelector(".fale")
 let mascara = document.querySelector(".form-mask")
 
 function cliqueBotao() {
-    formulario.style.left = "45px"
+    formulario.style.left = "60px"
     mascara.style.visibility = "visible"
 }
 
