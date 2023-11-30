@@ -30,3 +30,4 @@ function mostrarSweetAlert() {
         confirmButtonColor: "#AF2424",
     });
 }
+
