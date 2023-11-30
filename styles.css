@@ -302,7 +302,42 @@ iframe {
 .ca12 {
     box-sizing: border-box;
     float: left;
-    padding-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+
+
+}
+
+.ca1,
+.ca2,
+.ca3,
+.ca4,
+.ca5,
+.ca6,
+.ca7,
+.ca8,
+.ca9,
+.ca10,
+.ca11,
+.ca12 p {
+    color: #201f1f;
+    font-weight: 800;
+}
+
+
+
+.cal1,
+.cal2,
+.cal3,
+.cal4,
+.cal5,
+.cal6 {
+
+    box-sizing: border-box;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 40px;
 
 
@@ -311,9 +346,12 @@ iframe {
 
 
 
+
 .img-roupa {
-    width: 300px;
+    width: 290px;
     border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -322,9 +360,9 @@ iframe {
 }
 
 .roupas h4 {
-    background-color: #dbd8d8;
+    background-color: #AF2424;
     height: 25px;
-    color: #0f0f0f;
+    color: #f7f7f7;
     width: 120px;
     border-radius: 5px;
     font-size: 13px;
@@ -333,6 +371,7 @@ iframe {
     text-align: center;
     padding-top: 5px;
     font-weight: 600;
+    margin-left: 10px;
 
 }
 
@@ -359,16 +398,18 @@ iframe {
 
     width: 35px;
     height: 30px;
-    background-color: #AF2424;
-    color: #ffffff;
-    border: none;
+    background-color: #fffefea6;
+    color: #292828;
+    border: 1px solid #72717188;
     border-radius: 5px;
     font-weight: 600;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 
 }
 
 .tam:active {
-    border: 3px solid #000000;
+    border: 2px solid rgba(114, 113, 113, 0.822);
+    transform: scale(0.90);
 }
 
 
@@ -380,10 +421,13 @@ iframe {
     border-radius: 5px;
     color: #ffffff;
     margin-top: 10px;
+    margin-left: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
-.buttoncompra:hover {
-    opacity: 0.7;
+.buttoncompra:active {
+    background-color: #292828;
+    transform: scale(0.90);
 }
 
 .roupas p {
@@ -404,7 +448,8 @@ iframe {
     padding-top: 5px;
 }
 
-.name-camisetas {
+.name-camisetas,
+.name-calca {
     padding-left: 17px;
     padding-bottom: 20px;
     font-size: 28px;
@@ -466,6 +511,15 @@ iframe {
 
 
 @media (max-width: 785px) {
+
+    .roupas,
+    .calcas {
+        width: 100%;
+    }
+
+
+
+
     .navigation {
         padding: 15px 20px;
     }
@@ -473,7 +527,7 @@ iframe {
 
     .menu {
         display: block;
-        margin-left: 350px;
+        margin-left: 340px;
         font-size: 30px;
 
     }
@@ -534,12 +588,6 @@ iframe {
     .nav-menu i:hover {
         color: #0e0e0e;
     }
-
-
-
-
-
-
 
 
     .nav-menu.ativo {
@@ -643,13 +691,77 @@ iframe {
     .roupas {
 
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-
+        flex-wrap: wrap;
 
     }
 
+    .calca {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+    .ca1,
+    .ca2,
+    .ca3,
+    .ca4,
+    .ca5,
+    .ca6,
+    .ca7,
+    .ca8,
+    .ca9,
+    .ca10,
+    .ca11,
+    .ca12 {
+
+        width: 50%;
+        box-sizing: border-box;
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+
+    .img-roupa {
+
+        width: 190px;
+        border-radius: 5px;
+        padding: 10px;
+
+    }
+
+
+
+
+    .cal1,
+    .cal2,
+    .cal3,
+    .cal4,
+    .cal5,
+    .cal6 {
+        width: 50%;
+        box-sizing: border-box;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing: border-box;
+
+    }
+
+    .descrição h6 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .name-calca p {
+        text-align: center;
+        margin-left: 50%;
+    }
+
+    .name-camisetas {
+        font-size: 15px;
+        text-align: left;
+    }
 
     .calcas {
         display: flex;
@@ -658,15 +770,119 @@ iframe {
         align-items: center;
     }
 
+    .name-calca {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 
-
-
+    .descrição {
+        text-align: center;
+    }
 
     .sobre {
         display: none;
 
     }
 
+    .name-camisetas,
+    .name-calca {
+        padding-left: 17px;
+        padding-bottom: 20px;
+        font-size: 28px;
+        color: #AF2424;
+        text-align: center;
+    }
+
+
+
+    .buttoncompra {
+        background-color: #000000;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    }
+
+    .descrição h5 {
+        margin-bottom: 5px;
+        font-size: 13px;
+        height: 35px;
+    }
+
+    .descrição h3 {
+        padding-top: 5px;
+    }
+
+}
+
+
+
+@media (min-width: 1000px) {
+
+
+    .ca1,
+    .ca2,
+    .ca3,
+    .ca4,
+    .ca5,
+    .ca6,
+    .ca7,
+    .ca8,
+    .ca9,
+    .ca10,
+    .ca11,
+    .ca12 {
+        text-align: center;
+        line-height: 20px;
+    }
+
+
+
+
+
+    .roupas img {
+
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .roupas h4 {
+
+        background-color: #AF2424;
+        height: 25px;
+        color: #f7f7f7;
+        width: 120px;
+        border-radius: 5px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 5px;
+        font-weight: 600;
+        margin-left: 116px;
+    }
+
+
+
+    .home-text p {
+        font-size: 16px;
+        max-width: 494px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
 
 
 }
