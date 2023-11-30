@@ -19,3 +19,14 @@ function sairformulario() {
     formulario.style.left = "-405px"
     mascara.style.visibility = "hidden"
 }
+
+function mostrarSweetAlert() {
+    Swal.fire({
+        text: 'Item adicionado ao carrinho.',
+        icon: 'success',
+        confirmButtonText: 'OK',
+        timer: 3000,
+        background: '#ffffff',
+        confirmButtonColor: "#AF2424",
+    });
+}
