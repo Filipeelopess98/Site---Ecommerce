@@ -299,7 +299,13 @@ iframe {
 .ca9,
 .ca10,
 .ca11,
-.ca12 {
+.ca12,
+.cal1,
+.cal2,
+.cal3,
+.cal4,
+.cal5,
+.cal6 {
     box-sizing: border-box;
     float: left;
     padding-left: 10px;
@@ -341,8 +347,14 @@ iframe {
     padding-bottom: 40px;
 
 
+
 }
 
+
+.descrição-cal {
+    text-align: center;
+    padding: 5px;
+}
 
 
 
@@ -465,6 +477,7 @@ iframe {
 
 .roupas h4 {
     margin-bottom: 6px;
+    text-align: center;
 }
 
 .sobre {
@@ -508,6 +521,36 @@ iframe {
     text-align: center;
 
 }
+
+
+
+
+
+.formas-pagamento img {
+    width: 60px;
+    padding: 10px;
+}
+
+
+.formas-pagamento {
+    padding-top: 10px;
+    background-color: #e7e4e4;
+    color: #AF2424;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    height: 100px;
+}
+
+.formas-pagamento p {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
 
 
 @media (max-width: 785px) {
@@ -819,6 +862,39 @@ iframe {
     .descrição h3 {
         padding-top: 5px;
     }
+
+    .formas-pagamento img {
+        width: 60px;
+        padding: 12px;
+    }
+
+
+    .formas-pagamento {
+        padding-top: 10px;
+        background-color: #e7e4e4;
+        color: #AF2424;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        height: 100px;
+    }
+
+    .formas-pagamento p {
+        padding-bottom: 10px;
+    }
+
+
+    .inscreva {
+        padding-top: 10px;
+        background-color: #e7e4e4;
+        color: #AF2424;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        height: 100px;
+    }
+
+
 
 }
 
