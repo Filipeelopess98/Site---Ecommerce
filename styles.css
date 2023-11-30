@@ -403,7 +403,6 @@ iframe {
 
 
 
-
 }
 
 .tam {
@@ -424,6 +423,10 @@ iframe {
     transform: scale(0.90);
 }
 
+.tam:hover {
+    border: 2px solid rgba(114, 113, 113, 0.822);
+    transform: scale(0.90);
+}
 
 .buttoncompra {
     background-color: #000000;
@@ -441,6 +444,14 @@ iframe {
     background-color: #292828;
     transform: scale(0.90);
 }
+
+
+
+.buttoncompra:hover {
+    background-color: #292828;
+    transform: scale(0.90);
+}
+
 
 .roupas p {
 
