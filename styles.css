@@ -9,7 +9,7 @@
 
 
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -629,6 +629,17 @@ iframe {
 
 
 @media (max-width: 785px) {
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+
+    }
+
+
+
 
     .icon-wpp {
         position: fixed;
