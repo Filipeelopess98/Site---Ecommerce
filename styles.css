@@ -641,7 +641,7 @@ iframe {
     padding-top: 10px;
     background-color: #e7e4e4;
     color: #AF2424;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
     height: 100px;
@@ -1020,7 +1020,8 @@ iframe {
     }
 
     .formas-pagamento img {
-        width: 60px;
+        max-width: 400px;
+        width: 55px;
         padding: 12px;
     }
 
@@ -1037,24 +1038,8 @@ iframe {
 
     .formas-pagamento p {
         padding-bottom: 10px;
-    }
-
-
-    .inscreva {
-        padding-top: 10px;
-        background-color: #e7e4e4;
-        color: #AF2424;
         font-size: 15px;
-        font-weight: 600;
-        text-align: center;
-        height: 100px;
     }
-
-
-
-
-
-
 
 }
 
