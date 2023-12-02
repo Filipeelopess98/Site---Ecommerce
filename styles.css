@@ -25,17 +25,25 @@ body {
     position: fixed;
     bottom: 20px;
     right: 15px;
+
 }
 
 
 .icon-wpp img {
     width: 80px;
     height: auto;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+
 }
 
 
+.icon-wpp:active {
+    transform: scale(1.20);
+}
 
-
+.icon-wpp:hover {
+    transform: scale(1.20);
+}
 
 .navigation {
     display: flex;
