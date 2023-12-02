@@ -393,7 +393,8 @@ iframe {
 
 
 
-.descrição-cal {
+.descricao-cal,
+.descricao {
     text-align: center;
     padding: 5px;
 }
