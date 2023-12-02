@@ -481,6 +481,12 @@ iframe {
     transform: scale(0.95);
 }
 
+.star:active {
+    color: #ffd000;
+    transform: scale(0.95);
+}
+
+
 
 .tam {
 
