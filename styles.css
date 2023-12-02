@@ -645,8 +645,6 @@ iframe {
     }
 
 
-
-
     .icon-wpp {
         position: fixed;
         bottom: 30px;
@@ -658,9 +656,6 @@ iframe {
         width: 60px;
         height: auto;
     }
-
-
-
 
 
 
@@ -890,19 +885,11 @@ iframe {
 
 
 
-
-
-
-
     .img-roupa {
-
         width: 190px;
         border-radius: 5px;
         padding: 10px;
-
     }
-
-
 
 
 
@@ -951,6 +938,24 @@ iframe {
         font-size: 28px;
         color: #AF2424;
         text-align: center;
+    }
+
+
+    .star {
+        font-size: 21px;
+        color: #3a3a3a;
+        cursor: pointer;
+        transition: background-color 0.5s, color 0.5s, transform 0.5s;
+    }
+
+    .star:hover {
+        color: #ffd000;
+        transform: scale(0.95);
+    }
+
+    .star:active {
+        color: #ffd000;
+        transform: scale(0.95);
     }
 
 
