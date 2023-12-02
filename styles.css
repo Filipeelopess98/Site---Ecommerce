@@ -89,12 +89,21 @@ body {
     color: #AF2424;
     font-size: 20px;
     font-size: 500;
-    transition: all 0.5s;
+    border-bottom: 2px solid #AF2424;
 }
 
-.navigation ul li a:hover {
-    color: #AF2424;
+
+ul::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #AF2424;
+    transition: background-color 0.3s ease;
 }
+
 
 .navigation button {
     cursor: pointer;
@@ -680,6 +689,7 @@ iframe {
 
     .navigation {
         padding: 15px 20px;
+        border-bottom: 2px solid #AF2424;
     }
 
 
@@ -722,6 +732,8 @@ iframe {
         font-size: 17px;
         font-weight: 500;
         cursor: pointer;
+        border-bottom: 2px solid #AF2424;
+
     }
 
     .nav-menu p {
