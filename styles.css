@@ -64,7 +64,7 @@ body {
 .nav-menu p {
     color: #000000;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .p-paranorama {
@@ -80,14 +80,15 @@ body {
 .navigation ul {
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 65px;
+
 }
 
 .navigation ul li a {
     color: #AF2424;
     font-size: 20px;
     font-size: 500;
-    border-bottom: 2px solid #AF2424;
+    border-bottom: 3px solid #AF2424;
 }
 
 .nav-item {
@@ -777,18 +778,13 @@ iframe {
 
 
     .nav-item {
-        padding-top: 50px;
-        gap: 3px;
         display: flex;
         justify-content: left;
         align-items: last baseline;
-
-    }
-
-    .nav-item {
         text-decoration: none;
         color: rgb(223, 223, 223);
         transition: background-color 0.8s, color 0.8s, transform 0.8s;
+
     }
 
     .nav-item:hover {
@@ -802,8 +798,6 @@ iframe {
         transform: scale(1.05);
 
     }
-
-
 
 
     .home {
