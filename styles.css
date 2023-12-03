@@ -13,7 +13,6 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-
 }
 
 
@@ -35,7 +34,6 @@ body {
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 
 }
-
 
 .icon-wpp:active {
     transform: scale(1.20);
@@ -90,6 +88,11 @@ body {
     font-size: 20px;
     font-size: 500;
     border-bottom: 2px solid #AF2424;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -188,7 +191,6 @@ ul::after {
     color: #2c2929;
     font-size: 21px;
     font-weight: 600;
-
 
 }
 
@@ -291,7 +293,6 @@ iframe {
     z-index: 4;
     max-width: 300px;
 
-
 }
 
 .fale button {
@@ -366,9 +367,7 @@ iframe {
     padding-right: 10px;
     padding-bottom: 40px;
 
-
 }
-
 
 .cal1,
 .cal2,
@@ -383,11 +382,7 @@ iframe {
     padding-right: 10px;
     padding-bottom: 40px;
 
-
-
 }
-
-
 
 .ca1,
 .ca2,
@@ -406,17 +401,11 @@ iframe {
 }
 
 
-
-
-
-
 .descricao-cal,
 .descricao {
     text-align: center;
     padding: 5px;
 }
-
-
 
 
 .img-roupa {
@@ -427,8 +416,6 @@ iframe {
     transition: background-color 0.7s, color 0.7s, transform 0.5s;
     z-index: 3;
     padding-top: 12px;
-
-
 
 }
 
@@ -468,8 +455,6 @@ iframe {
     padding-top: 5px;
 
 }
-
-
 
 .star {
     font-size: 21px;
@@ -530,15 +515,10 @@ iframe {
     transform: scale(0.90);
 }
 
-
-
 .buttoncompra:hover {
     background-color: #292828;
     transform: scale(0.90);
 }
-
-
-
 
 
 .roupas h5 {
@@ -580,9 +560,6 @@ iframe {
     padding-top: 10px;
 
 }
-
-
-
 
 
 .sobre {

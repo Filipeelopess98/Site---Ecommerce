@@ -19,12 +19,12 @@
     <header>
         <nav class="navigation">
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#"></a>Inicio</li>
-                <li class="nav-item"><a href="#"></a>Produtos</li>
+                <li class="nav-item"></li><a href="#home" class="nav-item" class="smooth-scroll">Inicio</a>
+                <li class="nav-item"></li><a href="#produtos" class="nav-item" class="smooth-scroll">Produtos</a>
                 <p class="PanoramaPlaza"> <span class="p-paranorama">P</span>anorama <span class="p-plaza">P</span>laza
                 </p>
-                <li class="nav-item"><a href="#"></a>Sobre</li>
-                <li class="nav-item"><a href="#"></a>Contato</li>
+                <li class="nav-item"></li><a href="#sobre" class="nav-item" class="smooth-scroll">Sobre</a>
+                <li class="nav-item"></li><a href="#local" class="nav-item" class="smooth-scroll">Localização</a>
                 <button class='bx bx-cart'></button>
 
             </ul>
@@ -37,7 +37,7 @@
         </nav>
     </header>
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <div class="home-text">
                 <h4 class="texth4"> Bem-Vindo à Panorama Plaza! </h4>
                 <h1 class="texth1">Do básico ao extraordinário</h1>
@@ -57,28 +57,25 @@
                 <h3>Fale com nossos vendedores</h3>
                 <input type="text" placeholder="Seu nome">
                 <input type="tel" placeholder="Telefone">
-                <textarea placeholder="Qual a sua dúvida?" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Como podemos te ajudar?" id="" cols="30" rows="10"></textarea>
                 <button onclick="sairformulario()">Enviar</button>
             </form>
         </section>
 
 
         <div class="icon-wpp">
-            <a href="https://wa.me/5519981979935?text=Ol%C3%A1%2C%20qual%20a%20sua%20d%C3%BAvida%3F%20">
+            <a href="https://wa.me/5519981979935?text=Ol%C3%A1%2C%20qual%20a%20sua%20d%C3%BAvida%3F%20" target="_blank">
                 <img src="Assets/icon-wpp.png" alt="">
             </a>
 
         </div>
-
-
-
         </div>
-        <h1 class="titule">Conheça os nossos produtos </h1>
+        <h1 id="produtos" class="titule">Conheça os nossos produtos </h1>
         <br>
         <h5 class="name-camisetas">Camisetas </h5>
         <br>
 
-        <div class="roupas">
+        <div id="roupas" class="roupas">
 
             <div class="ca1">
                 <h4>Panorama Moda</h4>
@@ -399,7 +396,7 @@
                 </div>
             </div>
         </div>
-        <div class="sobre">
+        <div id="sobre" class="sobre">
             <h3>Sobre Nós</h3>
             <img src="Assets/escrita-logo.png" alt="logo-paranorama">
             <p>Uma visionária chamada Ana decidiu realizar seu sonho de abrir uma loja de roupas que oferecesse uma
@@ -452,7 +449,7 @@
             <p>
                 <span class="shop">Panorama Plaza</span> <br>
                 <br>
-            <div class="adress">
+            <div id="local" class="adress">
                 Panorama Plaza
                 <br>
                 Avenida Ilusão, 456
