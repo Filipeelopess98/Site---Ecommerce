@@ -58,6 +58,7 @@ body {
 
 .nav-item:hover {
     color: #AF2424;
+    font-weight: 700;
 }
 
 
@@ -65,6 +66,7 @@ body {
     color: #000000;
     font-weight: 600;
     font-size: 22px;
+    margin-left: 46px;
 }
 
 .p-paranorama {
@@ -411,7 +413,7 @@ iframe {
 
 .img-roupa {
     width: 290px;
-    border-radius: 3px;
+    border-radius: 6px;
     padding-left: 10px;
     padding-right: 10px;
     transition: background-color 0.7s, color 0.7s, transform 0.5s;
@@ -422,7 +424,8 @@ iframe {
 
 .img-roupa:hover {
     transform: scale(1.05);
-    border-radius: 5px;
+    border-radius: 5%;
+
 }
 
 .color-name {
@@ -512,13 +515,16 @@ iframe {
 }
 
 .buttoncompra:active {
-    background-color: #292828;
+    background-color: #AF2424;
     transform: scale(0.90);
+    box-shadow: 2px 2px 2px #313131;
 }
 
 .buttoncompra:hover {
-    background-color: #292828;
-    transform: scale(0.90);
+    background-color: #AF2424;
+    transform: scale(1.10);
+    box-shadow: 3px 3px 3px #181818;
+    font-weight: 700;
 }
 
 
