@@ -133,6 +133,12 @@ ul::after {
 
 }
 
+.logo-menu {
+    display: none;
+}
+
+
+
 .logo-nav {
     width: 70px;
 }
@@ -707,10 +713,12 @@ iframe {
 
     .menu {
         display: block;
-        margin-left: 340px;
-        font-size: 30px;
+        margin-left: 290px;
+        font-size: 63px;
+
 
     }
+
 
     .menu.ativo .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
@@ -725,6 +733,16 @@ iframe {
 
     .menu.ativo .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+
+    }
+
+    .menu .bar {
+        display: block;
+        width: 28px;
+        height: 3px;
+        background: #000000;
+        margin: 5px auto;
+        transition: all 0.8s;
 
     }
 
@@ -1061,7 +1079,7 @@ iframe {
         color: #ffffff;
         margin-top: 10px;
         padding: 10px 20px;
-        font-size: 14px;
+        font-size: 13px;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s, transform 0.3s;
     }
