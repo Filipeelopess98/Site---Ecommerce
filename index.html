@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="Assets/logo-shop.png" type="image/x-icon">
     <title> PanoramaPlaza </title>
@@ -46,17 +48,17 @@
                     estilo. Desde os clássicos atemporais até as tendências mais ousadas, nossa variedade é tão vasta
                     quanto os panoramas que você encontrará em cada canto.
                 </p>
-                <button class="button-contact" onclick="cliqueBotao()">Chamar um vendedor</button>
+                <button class="button-contact" onclick="cliqueBotao()">Fale conosco</button>
             </div>
             <div class="home-image">
                 <img src="Assets/logo-shop.png" alt="logo-panorama">
             </div>
             <div class="form-mask"></div>
             <form class="fale" action="https://formsubmit.co/fehfeh.ff@gmail.com" method="POST">
-                <h3>Fale com nossos vendedores</h3>
+                <h3>Como podemos te ajudar?</h3>
                 <input type="text" placeholder="Seu nome">
                 <input type="tel" placeholder="Telefone">
-                <textarea placeholder="Como podemos te ajudar?" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="Escreva aqui sua dúvida !" id="" cols="30" rows="10"></textarea>
                 <button onclick="sairformulario()">Enviar</button>
             </form>
         </section>
@@ -69,7 +71,10 @@
 
         </div>
         </div>
+        <br>
+        <br>
         <h1 id="produtos" class="titule">Conheça os nossos produtos </h1>
+        <br>
         <br>
         <h5 class="name-camisetas">Camisetas </h5>
         <br>
@@ -395,9 +400,9 @@
                 </div>
             </div>
         </div>
-        <div id="sobre" class="sobre">
-            <h3>Sobre Nós</h3>
-            <img src="Assets/escrita-logo.png" alt="logo-paranorama">
+        <br id="sobre">
+        <div class="sobre">
+            <h1>Sobre Nós</h1>
             <p>Uma visionária chamada Ana decidiu realizar seu sonho de abrir uma loja de roupas que oferecesse uma
                 combinação única de preços acessíveis e alta qualidade. Assim, nasceu a Panorama Plaza. Ana sempre foi
                 apaixonada por moda, mas acreditava que vestir-se bem não precisava ser um luxo inatingível. Ela começou
@@ -410,14 +415,21 @@
                 a Panorama Plaza não era apenas uma loja de roupas, mas um ponto de encontro para aqueles que buscavam
                 moda acessível sem abrir mão da qualidade, transformando a visão de Ana em uma realidade vibrante e
                 duradoura.</p>
+            <div class="sobre-fotos">
+                <img class="atendimento-sobre" src="Assets/ana.jpg" alt="">
+            </div>
+
         </div>
         <br>
         <br>
-        <h3 class="location">Venha nos visitar! </h3>
+        <br>
+        <br>
+        <br>
         <div class="iframe-container">
+            <h2 class="visitar">Venha nós visitar</h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14714.646403191417!2d-47.293022!3d-22.7779364!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8995d308877c1%3A0x55dc6a559deef83a!2sMontreal%20Magazine%20-%20Nova%20Odessa!5e0!3m2!1spt-BR!2sbr!4v1701046181769!5m2!1spt-BR!2sbr"
-                width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="formas-pagamento">
@@ -452,6 +464,7 @@
 
                 <div class="andress-name">
                     Panorama Plaza
+                    <br>
                     <br>
                     Avenida Ilusão, 456 - Setor Fantástico <br>
                     Cidade das Maravilha/SP <br>
