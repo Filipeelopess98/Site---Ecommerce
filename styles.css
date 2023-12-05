@@ -50,7 +50,7 @@ body {
     padding: 18px 40px;
     box-shadow: #AF2424;
     width: 100%;
-    background-color: #e7e4e4;
+    background-color: #eceaeafa;
     transition: all 0.5s;
     position: fixed;
     cursor: pointer;
@@ -578,11 +578,9 @@ iframe {
 .sobre {
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 70px;
-    padding-top: 80px;
-    background: radial-gradient(circle, #cfcece, #dad7d7);
-    box-shadow: 1px 1px 1px 1px #929292;
-    height: 900px;
+    padding-top: 120px;
+    background-color: #fffefea6;
+    height: 850px;
 }
 
 .sobre h3 {
